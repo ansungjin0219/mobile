@@ -1,0 +1,33 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub4_01/subvisualx2.jpg) center bottom;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* 고객접점직원 영역 */
+.employee{margin: 0 15px;}
+.employee h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 60px;}
+.employee span{display: block; font-size: 14px; font-weight: 500; color: #ed2024;}
+.employee p{font-size: 16px; font-weight: 500; text-align: center;
+margin-top: 20px; line-height: 1.5em;}
+.employee strong{font-size: 20px; font-weight: 400; text-align: center; display: block;
+margin: 35px 20% 0; background: #ed2024; width: 60%; padding: 10px;
+box-sizing: border-box; border-radius: 30px; color: #fff;}
+.employee ol{overflow: hidden;}
+.employee li{width: 200px; box-shadow: 5px 5px 15px rgba(0,0,0,.2);
+padding: 40px; border-radius: 100%; text-align: center; box-sizing: border-box;
+margin: 70px auto; position: relative;}
+.employee li img{width: 70px; margin-bottom: 10px;}
+.employee li span{display: block;}
+.employee li span:nth-of-type(1){font-size: 14px; font-weight: 400; color: #999;}
+.employee li span:nth-of-type(2){font-size: 16px; font-weight: 700; color: #333;}
+.employee li span:nth-of-type(3){position: absolute; top:215px; left: 50%; 
+margin-left: -25px; font-size: 50px; color: #999;}
+.employee li:last-of-type{margin-bottom: 35px;}
+/* 모집분야 영역 */
+.recruitment_field{margin: 0 15px; border-top: 1px dashed #ccc;}
+.recruitment_field h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px;}
+.recruitment_field ul{margin-top: 35px; padding-bottom: 35px;}
+.recruitment_field li{text-align: left; font-size: 18px; font-weight: 500;}
+.recruitment_field li span{position: relative; top:9px; color: #ed2024;
+font-size: 30px;}

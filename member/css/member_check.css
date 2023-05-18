@@ -1,0 +1,52 @@
+/* 약관동의 영역 */
+body{ background: #fff;}
+header{margin: 15px 15px 0;}
+header .menubar{display: flex; justify-content: space-between;}
+header .menubar a{display: block;}
+header .menubar a span{font-size: 25px; display: block; color: #999;}
+#content{margin: 50px auto 100px; padding: 0 15px;
+font-family: 'Noto Sans KR', sans-serif;}  
+
+
+/* .member_tab{padding: 30px 0;border-top: 1px solid #333;}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+.member_tab a.on{color: #fff;border-bottom: 2px solid #333;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #fff;font-weight: bold} */
+
+.join{text-align: left; position: relative;}
+.join h3{font-size: 25px; margin: 0 30% 50px; color: #333; text-align: center;
+position: relative; width: 40%; font-weight: 700;}
+.join h3::before{content: ''; position: absolute; bottom: -10px; left: 50%; margin-left: -55px;
+width: 110px; height: 2px; background: #ed2024;}
+.join h4{font-size: 18px;margin: 30px 0; color: #333; font-weight: 500;}
+.join .policy{padding: 10px; overflow-y: scroll; height: 80px; margin: 20px 0;
+border: 1px solid #ddd; background: #fff; font-size: 14px; line-height: 1.5em;}
+.join .check{color: #333; margin: 20px 0 60px;}
+.join .button{text-align: center;margin-top: 35px; display: flex; justify-content: space-between;}
+.join .button a{display: block; width: 50%; background: #ed2024;
+padding: 15px 10px; font-size: 16px; font-weight: 400; color: #fff;}
+.join .button .okcheck{border: 1px solid #ccc; color: #333;
+background: #fff;}
+
+/* 체크박스 UI 변경 */
+input[type=checkbox] + label::before {
+display: inline-block;
+width: 18px;
+height: 18px;
+background-color: transparent;
+border: 2px solid #999;
+border-radius: 50%;
+content: '';
+margin: 0px 15px -6px 0px;
+}
+input[type=checkbox] {
+display: none;
+}
+input[type=checkbox] + label {
+cursor: pointer;
+}
+input[type=checkbox]:checked + label::before {
+background: #fff url(../images/checked_bg.png) center center no-repeat;
+border: 2px solid red;
+}
+/* :checked 속성부른거  +는 친구   (눌렀을때 checked라는 속성이생김!) */

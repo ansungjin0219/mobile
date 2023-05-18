@@ -1,0 +1,37 @@
+/* 회사개요 영역 */
+.company_overview{padding: 0 15px 35px; background: #f9f9f9; 
+margin-top: 50px; overflow: hidden;}
+.company_overview h3{font-size: 25px; font-weight: 700; text-align: center;
+margin-top: 35px;}
+.company_overview img{width: 100%; margin-top: 35px;}
+.company_overview dl{overflow: hidden; border-bottom: 1px solid #ccc;
+padding: 15px 0;}
+.company_overview dt{font-size: 14px; font-weight: 700;
+float: left;}
+.company_overview dd{margin-left: 50%; font-weight: 700; font-size: 14px;
+color: #666;}
+/* 핵심가치 영역 */
+.core_value{margin: 0 15px 50px;}
+.core_value h3{font-size: 25px; font-weight: 700; text-align: center;
+margin-top: 35px}
+.core_value ul{margin-top: 35px;}
+.core_value li{overflow: hidden; margin-bottom: 45px;}
+.core_value li img{width: 50%; float: left;}
+.core_value dl{margin-left: 53%;}
+.core_value dt{font-size: 18px; font-weight: 500; color: #ed2024;
+margin-bottom: 5px;}
+.core_value dd{text-align: justify; font-size: 12px; line-height: 1.5em;}
+
+.core_value li:nth-of-type(2) img{float: right;}
+.core_value li:nth-of-type(2) dl{margin-left: 0; margin-right: 53%;}
+.core_value li:nth-of-type(4) img{float: right;}
+.core_value li:nth-of-type(4) dl{margin-left: 0; margin-right: 53%;}
+/* 비전 영역 */
+.vision{background: url(../images/sub1_01/con3x2.jpg) no-repeat center bottom;
+background-size: cover;}
+.vision_inner{background: rgba(0,0,0,.5); padding: 0 15px;
+overflow: hidden;}
+.vision h3{font-size: 25px; font-weight: 700; color: #fff;
+text-align: center; margin-top: 35px;}
+.vision p{font-size: 14px; font-weight: 500; color: #fff;
+text-align: center; margin: 35px 0}

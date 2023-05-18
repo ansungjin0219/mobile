@@ -1,0 +1,11 @@
+.ceo_salutation1 p{margin-top: 60px; font-size: 20px; font-weight: 700;
+line-height: 1.7em; text-align: center;}
+.ceo_salutation1 p span{color: #ed2024;}
+.ceo_salutation1 img{width: 80%; margin: 35px 10% 0;}
+.ceo_salutation2{background: #f9f9f9; padding: 0 15px 35px; overflow: hidden;}
+.ceo_salutation2 p{font-size: 16px; font-weight: 400;
+margin-top: 35px; line-height: 1.7em;}
+.ceo_salutation2 span{font-size: 14px; font-weight: 500; color: #999;
+float: right; margin-top: 35px;}
+.ceo_salutation2 span strong{font-size: 16px; font-weight: 700;
+color: #333; margin-left: 5px;}

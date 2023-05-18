@@ -1,0 +1,55 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub2_02/subvisualx2.jpg) center top;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* 사업영역 영역 */
+.biz_business{margin: 0 15px;}
+.biz_business h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 60px;}
+.biz_business p{font-size: 16px; font-weight: 500; text-align: justify;
+margin-top: 20px;}
+.biz_business p:nth-of-type(1){text-align: center; margin-bottom: 35px;}
+.biz_business p:nth-of-type(2){font-size: 14px; line-height: 1.7em;
+font-weight: 400;}
+.biz_business p:nth-of-type(2)::before{content: ''; display: block;
+width: 100%; height: 2px; background: #ed2024; margin-bottom: 10px;}
+.biz_business p:nth-of-type(3){font-size: 14px; line-height: 1.7em;
+font-weight: 400; margin:0 0 35px 0;}
+.biz_business p:nth-of-type(3)::before{content: ''; display: block;
+width: 100%; height: 2px; background: #ed2024; margin-bottom: 10px;}
+.biz_business li:first-of-type img{width: 100%; margin: 35px 0;}
+.biz_business li:nth-of-type(2){display: none;}
+.biz_business li:nth-of-type(3){display: none;}
+.biz_business li:nth-of-type(4){display: none;}
+/* 아웃소싱 영역 */
+.outsourcing{overflow: hidden; border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;}
+.outsourcing h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px; }
+.outsourcing div{margin: 0 15px;}
+.outsourcing img{width: 100%; margin-top: 35px;}
+.outsourcing p{background: #fff; box-shadow: 5px 5px 10px rgba(0,0,0,.1);
+margin: 0 15px; padding: 20px 10px; line-height: 1.7em;}
+.outsourcing dl{margin: 35px 15px;}
+.outsourcing dt{font-size: 18px; font-weight: 700; margin-bottom: 10px;}
+.outsourcing dd{font-size: 16px; line-height: 1.5em;}
+/* 핵심가치 영역 */
+/* li에 포지션 릴레이티브줬고 이미지에 위스를 100%줬으니 dl은 레프트50%주고 마진레프트-80px준게 li에서 -80px만큼간거 그건계속 고정이니 img가 커진건말건 di은 계속 li에 마진레프트-80px만큼 가져있는거임!*/
+.core{margin: 35px 15px;}
+.core h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px;}
+.core ul{margin-top: 35px;}
+.core li{position: relative;}
+.core img{width: 100%; filter: brightness(60%);}
+.core dl{position: absolute; left:50%; margin-left: -100px;
+top:50%; margin-top: -130px; text-align: center;}
+.core li:nth-of-type(2) dl{margin-left: -120px;}
+.core li:nth-of-type(3) dl{margin-left: -80px;}
+.core li:nth-of-type(4) dl{margin-left: -105px;}
+.core dt{font-size: 20px; font-weight: 500; color: #fff;
+margin-bottom: 20px;}
+.core dd{font-size: 16px; font-weight: 400; color: #fff;
+line-height: 2em; text-align: left;}
+.core dd span{position: relative; top:7px; left:0;}
+.swiper-pagination{margin-bottom: 35px;}
+.swiper-pagination-bullet-active{background-color: red;}

@@ -1,0 +1,13 @@
+{
+    "product": [
+      {"img":"./images/sub2_03/con3_01.png", "company_name":"CUCKOO", "product_name":"전기밥솥", "product_content":"CUCKOO 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_02.png", "company_name":"CUCKOO", "product_name":"공기청정기", "product_content":"CUCKOO 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_03.png", "company_name":"CUCKOO", "product_name":"정수기", "product_content":"CUCKOO 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_04.png", "company_name":"CUCKOO", "product_name":"펫드라이룸", "product_content":"CUCKOO 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_05.png", "company_name":"ANAM", "product_name":"LED HD", "product_content":"ANAM 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_06.png", "company_name":"ANAM", "product_name":"LED UHD", "product_content":"ANAM 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_07.png", "company_name":"PHILIPS", "product_name":"다리미", "product_content":"PHILIPS 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."},
+      {"img":"./images/sub2_03/con3_08.png", "company_name":"PHILIPS", "product_name":"에어프라이어", "product_content":"PHILIPS 본사와 협업하여 품질 좋은 상품을 경쟁력 있는 가격으로 고객(수요처)에 맞춤 공급하고 있습니다."}
+    ]
+}
+

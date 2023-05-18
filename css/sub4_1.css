@@ -1,0 +1,14 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub4_01/subvisualx2.jpg) center bottom;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* 인재상 영역 */
+.talent{margin-top: 60px;}
+.talent li{padding: 35px 15px;}
+.talent li:nth-of-type(1){padding-top: 0;}
+.talent li:nth-of-type(2){background: #f9f9f9;}
+.talent li:nth-of-type(4){background: #f9f9f9;}
+.talent li img{width: 100%; border-radius: 50px 0;}
+.talent li h3{font-size: 20px; font-weight: 700; margin-top: 35px;}
+.talent li p{font-size: 16px; font-weight: 400; color: #666;
+line-height: 1.7em; margin-top: 20px;}

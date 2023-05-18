@@ -1,0 +1,104 @@
+/* 불릿색깔 */
+.swiper-pagination-bullet-active{background-color: red;}
+/* 메인 비주얼 영역 */
+.main img{width: 100%; position: relative; z-index: -20;}
+.main li span{position: absolute; margin-top: -150px; top:50%; 
+font-size: 28px; font-weight: 700; color: #fff; z-index: -10;}
+.main li span:last-of-type{left:50%; margin-left: -95px; margin-top: -110px; top:50%; 
+font-size: 18px; text-align: center;}
+.main .main_img1 span{left:50%; margin-left: -110px;}
+.main .main_img2 span{left:50%; margin-left: -140px; text-align: center;}
+.main .main_img2 span:last-of-type{margin-left: -130px; margin-top: -60px;}
+.main .main_img3 span{left:50%; margin-left: -80px;}
+.main .swiper-pagination1{bottom: 50px;}
+
+/* 사업소개 영역 */
+.business_introduction{margin-top: 35px;}
+.business_introduction h3{font-size: 25px; font-weight: 700;
+text-align: center; margin-bottom: 35px;}
+/* .business_introduction ul li{margin: 0 30px 0 30px;} */
+.business_introduction ul img{width: 100%; margin-bottom: 25px;}
+.business_introduction ul h4{text-align: center; font-size: 17.5px; 
+font-weight: 500; margin-bottom: 25px;}
+.business_introduction ul p{font-size: 14px; text-align: center;
+line-height: 1.5em; margin-bottom: 10px;}
+.business_introduction ul a{font-size: 14px; font-weight: 500;
+color: #ed2024; text-align: center; display: block;
+margin-bottom: 60px;}
+.business_introduction ul a span{font-size: 18px; position: relative;
+left:0; top:3.5px;}
+.business_introduction .swiper-pagination2{bottom: 30px;}
+
+/* .swiper-container {
+width: 100%;
+} */
+/* .swiper-slide {
+background-position: center;
+} */
+
+/* ESG 경영 영역 */
+.esg_management{background: #f9f9f9; overflow: hidden;}
+.esg_management h3{text-align: center; font-size: 25px; font-weight: 700;
+margin-top: 35px;}
+   
+.esg_management ul{margin: 35px 15px 26px; overflow: hidden;}
+.esg_management ul li a{float: left; border: 1px solid #999; color: #333;
+width: 50%; text-align: center; box-sizing: border-box; font-size: 16px;}
+.esg_management ul li:first-of-type a{border-right: 0;}
+.esg_management ul li:last-of-type a{border-left: 0;}
+.esg_management ul li a{display: block; padding: 10px 0; }
+#content .esg_management .current{border: 1px solid #ed2024; 
+color: #ed2024;}
+.esg_management .esg_imgbox{width: 100%; position: relative;}
+.esg_management .esg_imgbox img{width: 60%; position: relative; z-index: 10;}
+.esg_management .esg_imgbox img:last-of-type{position: absolute; right:30px;
+top:40px; z-index: 0;}
+.esg_management div{margin: 0 15px 0 15px;}
+.esg_management div h4{margin-top: 20px; font-size: 17.5px; font-weight: 700;}
+.esg_management div p{font-size: 14px; margin-top: 15px;}
+.esg_management div a{font-size: 14px; font-weight: 500;
+color: #ed2024; text-align: left; display: block;
+margin: 10px 0 35px 0;}
+.esg_management div span{font-size: 18px; position: relative;
+left:0; top:4px;}
+.esg_management .esg_txtbox2{display: none;}
+
+/* 인재상 영역 */
+.employment{margin: 0 15px;}
+.employment h3{margin-top: 35px; font-size: 25px; font-weight: 700;
+text-align: center; margin-left: 15px; margin-right: 15px;}
+.employment .emp1{margin: 35px 0 0 0;}
+.employment .emp1 div{width: 100%; position: relative;}
+.employment .emp1 img{width: 100%;}
+.employment .emp1 h4{position: absolute; left:50%; margin-left: -45px;
+top:50%; margin-top: -10px; font-size: 20px; font-weight: 700; color: #fff;}
+.employment .emp1 p{margin-top: 25px; line-height: 1.5em;}
+.employment .emp1 a{font-size: 14px; font-weight: 500;
+color: #ed2024; text-align: left; display: block;
+margin: 10px 0 35px 0;}
+.employment .emp1 span{font-size: 18px; position: relative;
+left:0; top:4px;}
+.employment .emp2{margin-bottom: 35px;}
+.employment .emp2 img{width: 100%;}
+.employment .emp2 span{display: block; text-align: center; margin: 10px 0;
+font-size: 14px; font-weight: 500;}
+.swiper-scrollbar{margin-bottom: 20px;}
+.swiper-scrollbar-drag {background:red}
+
+
+
+
+/* kt is SERVICE 영역 */
+.kt_service{background: url(../images/con4_01x2.jpg); width: 100%;
+margin-top: 35px; overflow: hidden;}
+.kt_service h3{font-size: 25px; font-weight: 700; text-align: center;
+color: #fff; margin-top: 35px;}
+.kt_service h3 span{color: #ed2024;}
+.kt_service ul{overflow: hidden; margin: 35px 10px 0 10px;}
+.kt_service li{float: left; width: 25%; text-align: center; }
+.kt_service li a{display: block; margin: 0 5px;}
+.kt_service li a{display: block;}
+.kt_service li img{width: 100%; border-radius: 10px;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.3);}
+.kt_service li span{color: #fff; margin-top: 10px; display: block;
+margin-bottom: 50px;}

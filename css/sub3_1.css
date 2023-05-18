@@ -1,0 +1,39 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub3_01/subvisualx2.jpg) center bottom;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* 첫 ESG */
+.esg_strategy{margin-top: 60px;}
+.esg_strategy div{text-indent: -9999px; overflow: hidden;
+background: url(../images/sub3_01/con1x2.jpg)no-repeat; width: 100%;
+height: 125px; background-size: cover;}
+.esg_strategy strong{font-size: 18px; font-weight: 700; margin: 20px 15px 0;
+text-align: left; display: block;}
+.esg_strategy p{font-size: 14px; font-weight: 400; margin: 20px 15px 0;
+line-height: 1.5em; text-align: justify;}
+/* ESG란? 영역 */
+.esg_ex{margin-bottom: 35px;}
+.esg_ex h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 70px;}
+.esg_ex div{background: url(../images/sub3_01/con2x2.jpg)no-repeat center fixed;
+overflow: hidden; margin-top: 35px;}
+.esg_ex div p{margin: 35px 15px; font-size: 14px; font-weight: 400;
+color: #fff; text-align: center;}
+/* ESG 전략체계 영역 */
+.esg_system{background: #f9f9f9; overflow: hidden; padding: 0 15px;}
+.esg_system h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px;}
+.esg_system p{font-size: 16px; font-weight: 500; text-align: center;
+margin-top: 20px; line-height: 1.5em;}
+.esg_system dl{margin: 35px 30px;}
+.esg_system dt{font-size: 16px; font-weight: 400; background: #ed2024;
+width: 100%; text-align: center; padding: 10px; box-sizing: border-box;
+border-radius: 50px; color: #fff; margin-bottom: 35px;}
+.esg_system dt::after{content: ''; display: block; background: #ed2024;
+width: 1px; height: 45px; position: absolute; left:50%}
+.esg_system dt span{display: block;}
+.esg_system dd{font-size: 14px; font-weight: 500; background: #fff;
+width: 100%; text-align: center; padding: 15px; box-sizing: border-box;
+margin-top: 20px; border-radius: 50px; color: #999; font-weight: 400;
+box-shadow: 5px 5px 15px rgba(0,0,0,.1);}
+.esg_system dd span{display: block; color: #333; font-weight: 700;}

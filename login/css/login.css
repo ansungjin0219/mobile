@@ -1,0 +1,35 @@
+/* 로그인창 영역 */
+body{background: #fff;}
+header{margin: 15px 15px 0;}
+header .menubar{display: flex; justify-content: space-between;}
+header .menubar a{display: block;}
+header .menubar a span{font-size: 25px; display: block; color: #999;}
+#content{margin: 50px auto 100px; padding: 0 15px;
+font-family: 'Noto Sans KR', sans-serif;}
+#content h2{font-size: 25px; margin: 0 30% 30px; color: #333; text-align: center;
+position: relative; width: 40%; font-weight: 700;}
+#content h2::after{content: ''; position: absolute; bottom: -10px; left: 50%;
+margin-left: -53px; width: 110px; height: 2px; background: #ed2024;}
+#content p{margin: 0 auto 70px; font-size: 16px; color: #999;
+text-align: center;}
+input[type=text], input[type=password]{width: 100%; height: 60px; background: #f6f6f6;
+border: 0; margin-bottom: 20px; outline: none; font-size: 16px; padding-left: 30px;
+box-sizing: border-box;}
+button[type=submit]{width:100%; font-family: 'Noto Sans KR', sans-serif;
+font-weight: 500; background: #ed2024; padding: 15px 0;border: none; color: #fff;
+font-size: 16px;cursor: pointer; margin-bottom: 25px; }
+input::placeholder{color: #ccc; font-weight: 400;}
+.search{overflow: hidden;}
+.search a{display: block; color: #666; position: relative;
+left: 50%; margin-left: -115px; float: left;}
+.search a:last-of-type{ margin-left: 30px;}
+.search a:last-of-type::after{content: ''; display: block; width: 1px;
+height: 20px; background: #999; position: absolute; top: 3px; right: 50%;
+margin-right: 80px;}
+.formember::before{content: ''; display: block; border-top: 1px dashed #999;
+position: relative; top:50px; left:0;} 
+.formember span{display: block; margin: 50px auto ; font-size: 16px;
+text-align: center; padding-top: 50px;}
+.formember a{width: 100%; padding: 15px 0; margin-top: 25px; color: #333;
+font-weight: 500; background: transparent; border: 1px solid #ccc;
+font-size: 16px; display: block; text-align: center;}

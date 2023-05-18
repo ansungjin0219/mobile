@@ -1,0 +1,46 @@
+/* 회원가입창 영역 */
+body{background: #fff;}
+header{margin: 15px 15px 0;}
+header .menubar{display: flex; justify-content: space-between;}
+header .menubar a{display: block;}
+header .menubar a span{font-size: 25px; display: block; color: #999;}
+#content{margin: 50px auto 100px; padding: 0 15px;
+font-family: 'Noto Sans KR', sans-serif;}
+#content h2{font-size: 25px; margin: 0 30% 50px; color: #333; text-align: center;
+position: relative; width: 40%; font-weight: 700;}
+#content h2::after{content: ''; position: absolute; bottom: -10px; left: 50%;
+margin-left: -53px; width: 110px; height: 2px; background: #ed2024;}
+/* 양식들 */
+#content li{margin-bottom: 35px; overflow: hidden; box-sizing: border-box;}
+input[type=text], input[type=password]{width: 100%; height: 60px; background: #f6f6f6;
+border: 0; outline: none; font-size: 16px; padding-left: 30px;}
+input::placeholder{color: #ccc; font-weight: 400;}
+label{display: block; font-size: 16px; margin-bottom: 10px;}
+/* 휴대폰 */
+#content li:nth-of-type(6){font-size: 18px;}
+#content li:nth-of-type(6) strong{display: block; font-size: 16px;
+margin-bottom: 10px; font-weight: 400;}
+#content li:nth-of-type(6) span{display: block; width: 5%; float: left;
+text-align: center; line-height: 3em;}
+select{width: 30%; height: 60px; border: 0; outline: none;
+font-size: 16px; background: #f6f6f6; float: left;
+padding: 0 15px 0; box-sizing: border-box;}
+#hp2{width: 30%; float: left; padding-left: 15px; box-sizing: border-box;}
+#hp3{width: 30%; float: left; padding-left: 15px; box-sizing: border-box;}
+/* 이메일 */
+#content li:nth-of-type(7){font-size: 16px; margin-bottom: 55px;}
+#content li:nth-of-type(7) strong{display: block; font-size: 16px;
+margin-bottom: 10px; font-weight: 400;}
+#content li:nth-of-type(7) span{display: block; width: 10%; float: left;
+text-align: center; line-height: 3em;}
+#mail1{width: 45%; float: left; padding-left: 15px; box-sizing: border-box;}
+#mail2{width: 45%; float: left; padding-left: 15px; box-sizing: border-box;}
+/* 버튼 */
+button[type=submit]{display: block; width: 50%;
+border: 1px solid #ed2024;background: #ed2024;color: #fff;
+font-size: 16px; box-sizing: border-box; padding: 15px 0;font-weight: 400;
+font-family: 'Noto Sans KR', sans-serif; float: left;}
+button[type=reset]{display: block; width: 50%; box-sizing: border-box;
+border: 1px solid #ccc; color: #333;
+font-weight: 400; background: transparent; padding: 15px 0;
+font-size: 16px; font-family: 'Noto Sans KR', sans-serif;}

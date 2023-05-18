@@ -1,0 +1,32 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub3_02/subvisualx2.jpg) center bottom;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* kt is 환경경영정책, kt is 사회공헌정책 영역 */
+.environment h3, .social h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 60px;}
+.environment ul, .social ul{margin-top: 35px;}
+.environment li, .social li{padding: 0 15px;}
+.environment li:last-of-type, .social li:last-of-type
+{background: #f9f9f9;}
+.environment li:last-of-type img,
+.social li:last-of-type img
+{margin-top: 35px;}
+.environment li img,
+.social li img
+{width: 100%; box-shadow: 5px 5px 15px rgba(0,0,0,.3);}
+.environment li dl, .social li dl{margin-top: 35px;}
+.environment li dt, .social li dt{font-size: 20px; font-weight: 500;}
+.environment li dd, .social li dd{font-size: 16px; font-weight: 400; color: #666;
+margin-top: 20px; line-height: 1.5em; text-align: justify;
+padding-bottom: 35px;}
+
+.social h3{margin-top: 35px;}
+/* 기업지배구조헌장 영역 */
+.governance{margin: 0 15px;}
+.governance h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px;}
+.governance p{font-size: 16px; font-weight: 400; text-align: justify;
+margin-top: 35px; box-shadow: 5px 5px 15px rgba(0,0,0,.1);
+padding: 30px; line-height: 1.5em;}
+

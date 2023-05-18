@@ -1,0 +1,66 @@
+/* 공통 서브 비주얼 영역 */
+.main{background: url(../images/sub2_03/subvisualx2.jpg) center top;
+background-size: cover; position: relative; top: 0; width: 100%;
+height: 200px; overflow: hidden;}
+/* 사업소개 영역 */
+.digital_introduction{margin-bottom: 35px;}
+.digital_introduction h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 60px;}
+.digital_introduction div{position: relative;}
+.digital_introduction div img{width: 100%; filter: brightness(60%);
+margin-top: 35px;}
+.digital_introduction div p{font-size: 14px; font-weight: 400; color: #fff;
+position: absolute; left:50%; margin-left: -130px; top:50%; text-align: center;
+line-height: 1.7em;}
+.digital_introduction ul{display: flex; margin: 35px 15px 0; justify-content: space-between;}
+.digital_introduction li{text-align: center;}
+.digital_introduction li img{width: 50px;}
+.digital_introduction li span{font-size: 16px; font-weight: 700;
+display: block; margin-top: 10px;}
+/* 주요파트너사 영역 */
+.partner{background: #f9f9f9; overflow: hidden;}
+.partner h3{font-size: 25px; font-weight: 700;text-align: center;
+margin-top: 35px;}
+.partner div{position: relative;}
+.partner div img{width: 100%; filter: brightness(60%);
+margin-top: 35px;}
+.partner div p{font-size: 14px; font-weight: 400; color: #fff;
+position: absolute; left:50%; margin-left: -135px; top:50%; text-align: center;
+line-height: 1.7em;}
+.partner ul{display: flex; margin: 35px 15px; justify-content: space-between;}
+.partner li img{width: 60px;}
+/* 상품라인업 영역 */
+.product{padding-bottom: 35px;}
+.product h3{font-size: 25px; font-weight: 700; text-align: center;
+margin-top: 35px;}
+.product>div{overflow: hidden;}
+.product>div:nth-of-type(2){background: #f9f9f9;}
+.product strong{font-size: 20px; font-weight: 500; text-align: center;
+margin: 35px 0; display: block;}
+.product ul li{margin-bottom: 35px; overflow: hidden; padding: 0 15px; }
+.product ul img{width: 50%; float: left;}
+.product ul div{float: right; width: 40%; margin-left: 10%;}
+.product ul div span{display: block; font-size: 18px; font-weight: 700;
+text-align: center; margin: 25px 0 25px; }
+.product ul div a{display: block; font-size: 16px; font-weight: 500;
+border: 1px solid #ccc; padding: 5px; text-align: center;}
+/* 상품라인업 팝업 영역 */
+.product .popup{position: fixed; left: 0; top: 0; z-index: 50;
+width: 100%; height: 100%; background: #fff; display: none;}
+.product .popup em{height: 45px; padding: 20px 10px 10px 15px; width: 100%;
+display: block; font-size: 20px; font-weight: 500;
+box-shadow: 1px 1px 10px rgba(0,0,0,.1);}
+.product .popup img{width: 60%; margin:90px 20% 20px;}
+.product .popup span{font-size: 25px; 
+font-weight: 400; text-align: center; display: block;}
+.product .popup strong{font-size: 25px; margin-top: 10px;
+font-weight: 700; text-align: center; display: block;}
+.product .popup p{font-size: 18px; font-weight: 400; line-height: 2em;
+text-align: center; margin:35px 15px; color: #666; text-align: justify;}
+.product .popup .close_btn span{display: block; font-size: 40px;
+position: absolute;  top: 15px; right:15px}
+.product .pop_btn span{position:absolute; z-index: 60; top:50%; 
+margin-top: -120px; display: block;}
+.product .pop_btn span{ font-size: 50px; color: #666;}
+.product .pop_btn .pre span{margin-left: 30px; left:0;}
+.product .pop_btn .next span{margin-right: 15px; right: 0;}
